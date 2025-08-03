@@ -20,8 +20,9 @@ body{
 /* end body style */
 /* header section */
 header{
-    background-image: url("./Assets/Hero-bg.png");
+    background-image: url("../Assets/Hero-bg.png");
     width: 100%;
+    padding-bottom: 5px;
 }
 /*  nav section style start */
 nav{
@@ -66,13 +67,14 @@ nav{
 main{
     max-width: 1140px;
     height: auto;
-    margin: 0px 141px;
+    margin: 0px auto;
 }
 /* action-section-style */
 .action-section{
     display: flex;
     gap: 200px;
     align-items: center;
+    margin: 50px 0px;
 }
 .action-title{
     font-weight: bold;
@@ -150,6 +152,7 @@ main{
 /* focuse section */
 .focus{
     margin-top: 100px;
+    padding: 70px 150px;
 }
 .focus-content{
     text-align: center;
@@ -203,3 +206,41 @@ textarea{
 }
 /* contact section ends */
 /* main section style ends */
+
+/* footer styles start */
+footer{
+    max-width: 1440px;
+}
+.footer-content{
+    margin: 100px 400px;
+    padding-top: 50px;
+}
+.footer-logo{
+    font-weight: bolder;
+    font-size: 90px;
+    color: #4E47FF;
+    text-align: center;
+    padding-top: 30px;
+}
+.footer-description{
+    font-size: 16px;
+    color: #9393a1;
+    text-align: justify;
+}
+footer nav ul{
+    display: flex;
+    gap: 10px;
+    margin: 10px 300px;
+    
+}
+footer nav ul li{
+    list-style: none;
+    font-size: 16px;
+    padding-bottom:200px;
+    padding-left: 20px;
+}
+footer nav ul li a{
+    text-decoration: none;
+    color: #9393a1;
+}
+/* footer style ends */
