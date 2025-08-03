@@ -167,5 +167,39 @@ main{
     border-radius: 20px;
 }
 /* focuse section end */
-
+/* contact section starts */
+.contact{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    margin-top:100px;
+    background-color: #e2e4e9;
+    padding: 20px;
+}
+.contact-title{
+    font-weight: bold;
+    font-size: 80px;
+    color: black;
+}
+form{
+    margin-top:30px;
+}
+label{
+    display: block;
+    font-size: 18px;
+    margin: 10px 0px;
+    font-weight: 600;
+}
+input{
+    width: 80%;
+    padding: 10px 20px;
+    background-color: #FFFFFF;
+    border: none;
+}
+textarea{
+    padding: 10px 20px;
+    margin-bottom: 10px;
+    border: none;
+}
+/* contact section ends */
 /* main section style ends */
